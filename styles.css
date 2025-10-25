@@ -1,58 +1,60 @@
-body{
+body {
     font-family: roboto;
-
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    div h1{
-        color: #0078d7;
-        font-size: 21px;
-    }
-    .navbar{
-        li{display: inline;
-        margin-right: 30px;
-        color: #0078d7;
-        font-size: large;
-        font-weight: bold;
+
+header {
+    .navbar {
+        text-align: center;
+
+        li {
+            display: inline;
+            margin-right: 40px;
+            color: #0078d7;
+            font-size: large;
+            font-weight: bold;
         }
-        a{
+
+        a {
             text-decoration: none;
         }
     }
 }
 
-#home{
+#home {
     margin: 40px;
     border: #0078d7 solid 2px;
     border-radius: 20px;
-    display: flex;
-    justify-content: space-around;
-    .home{
-        h1{
+
+    .home {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 60px;
+
+        h1 {
             color: #0078d7;
             font-size: 30px;
             font-weight: bold;
         }
-        h3{
 
-        }
-        .part1{
+
+        .part1 {
             opacity: 0.7;
             font-weight: bold;
 
         }
-        .part2{
+
+        .part2 {
             font-size: medium;
             font-weight: normal;
         }
-        button{
+
+        button {
             background-color: #0078d7;
             padding: 20px;
             border-radius: 20px;
             border: none;
-            a{
+
+            a {
                 text-decoration: none;
                 color: white;
                 font-size: large;
@@ -61,9 +63,14 @@ header{
         }
 
     }
-    .firstimg{
+
+    .firstimg {
+        display: inline-block;
+        vertical-align: middle;
         margin: 10px;
-        img{
+        margin-left: 100px;
+
+        img {
             border-radius: 20px;
         }
     }
@@ -71,11 +78,130 @@ header{
 
 }
 
-#about{
+#about {
     margin: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     border: #0078d7 solid 2px;
     border-radius: 20px;
+
+    .one {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 60px;
+        margin-bottom: 100px;
+
+        h1 {
+            margin-bottom: 50px;
+            color: #0078d7;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+
+    .two {
+        display: inline-block;
+        vertical-align: middle;
+
+        img {
+            border-radius: 20px;
+            margin: 10px;
+        }
+    }
+}
+
+#work {
+    margin: 40px;
+    border: #0078d7 solid 2px;
+    border-radius: 20px;
+
+    .work {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 60px;
+
+        h1 {
+            margin-bottom: 50px;
+            color: #0078d7;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .list li {
+            font-size: medium;
+            font-weight: bolder;
+            list-style: none;
+            margin-bottom: 10px;
+
+            b {
+                color: #0078d7;
+            }
+
+        }
+
+    }
+
+    .video {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 10px;
+        margin-left: 70px;
+    }
+}
+
+#resume {
+    margin: 40px;
+    border: #0078d7 solid 2px;
+    border-radius: 20px;
+
+    h1 {
+        margin-bottom: 50px;
+        color: #0078d7;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 60px;
+    }
+
+    p {
+        margin: 10px;
+        margin-left: 60px;
+        font-size: medium;
+        font-weight: bolder;
+
+        u {
+            color: #0078d7;
+        }
+    }
+    audio{
+        width: 700px;
+        margin-left: 300px;
+        margin-bottom: 10px;
+    }
+}
+#contact {
+    margin: 40px;
+    border: #0078d7 solid 2px;
+    border-radius: 20px;
+
+    h1 {
+        margin-bottom: 50px;
+        color: #0078d7;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 60px;
+    }
+
+    div {
+        margin-left: 60px;
+
+        img {
+            display: inline-block;
+            vertical-align: middle
+        }
+
+        p {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: medium;
+            font-weight: normal;
+        }
+    }
 }
